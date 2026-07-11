@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Kufi+Arabic:wght@100..900&family=Noto+Sans+Arabic:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Sage Comics</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><h1 class="logo">SageComics</h1></a>
+       
+        <img class="sidebar-button" src="Photos/icons/side-bar.png" draggable="false">
+    </header>
+
+    <div class="sidebar-small-screens">
+            <button class="ss-sidebar-back-button">❮</button>
+
+            <div class="ss-sidebar-main-navs">
+                <a href="index.html"><div class="nav">
+                    <img src="Photos/icons/home-icon.png" draggable="false">
+                    <p>Home</p>
+                </div></a>
+                <div class="nav">
+                    <img src="Photos/icons/comic-icon.png" draggable="false">
+                    <p>Comics</p>
+                </div>
+                <a href="favorites.html"><div class="nav">
+                    <img src="Photos/icons/favorite-icon.png" draggable="false">
+                    <p>Favorite</p>
+                </div></a>
+            </div>
+
+            <div class="navs">
+                <p class="nav-title">Comics</p>
+                <div class="navs-wrapper">
+                    <a href="#fantasyComicsCat"><div class="nav">
+                        <p class="nav-emoji">🐦‍🔥</p>
+                        <p>Fantasy Comics</p>
+                    </div></a>
+                    <a href="#actionComicsCat"><div class="nav">
+                        <p class="nav-emoji">💥</p>
+                        <p>Action Comics</p>
+                    </div></a>
+                    <a href="#mysteryComicsCat"><div class="nav">
+                        <p class="nav-emoji">🕵️</p>
+                        <p>Mystery Comics</p>
+                    </div></a>
+                    <a href="#horrorComicsCat"><div class="nav">
+                        <p class="nav-emoji">☠️</p>
+                        <p>Horror Comics</p>
+                    </div></a>
+                    <a href="#solCat"><div class="nav">
+                        <p class="nav-emoji">☘️</p>
+                        <p>Slice of Life</p>
+                    </div></a>
+                    <a href="#superheroCat"><div class="nav">
+                        <p class="nav-emoji">🦸‍♂️</p>
+                        <p>Superheros</p>
+                    </div></a>
+                    <a href="#nonFictionComicsCat"><div class="nav">
+                        <p class="nav-emoji">🌆</p>
+                        <p>Non-Fiction</p>
+                    </div></a>
+                    <a href=""><div class="nav">
+                        <p class="nav-emoji">🧒</p>
+                        <p>Kids Comics</p>
+                    </div></a>
+                </div>
+            </div>
+    </div>
+    
+    <div class="overlay"></div>
+
+    <main>
+    <div class="side-bar">
+        <h1 class="logo">SageComics</h1>
+        
+        <div class="navs-container">
+            <div class="main-navs">
+                <a href="index.html"><div class="nav">
+                    <img src="Photos/icons/home-icon.png" draggable="false">
+                    <p>Home</p>
+                </div></a>
+                <div class="nav">
+                    <img src="Photos/icons/comic-icon.png" draggable="false">
+                    <p>Comics</p>
+                </div>
+                <a href="favorites.html"><div class="nav">
+                    <img src="Photos/icons/favorite-icon.png" draggable="false">
+                    <p>Favorite</p>
+                </div></a>
+            </div>
+
+            <div class="navs">
+                <p class="nav-title">Comics</p>
+                <div class="navs-wrapper">
+                    <a href="#fantasyComicsCat"><div class="nav">
+                        <p class="nav-emoji">🐦‍🔥</p>
+                        <p>Fantasy Comics</p>
+                    </div></a>
+                    <a href="#actionComicsCat"><div class="nav">
+                        <p class="nav-emoji">💥</p>
+                        <p>Action Comics</p>
+                    </div></a>
+                    <a href="#mysteryComicsCat"><div class="nav">
+                        <p class="nav-emoji">🕵️</p>
+                        <p>Mystery Comics</p>
+                    </div></a>
+                    <a href="#horrorComicsCat"><div class="nav">
+                        <p class="nav-emoji">☠️</p>
+                        <p>Horror Comics</p>
+                    </div></a>
+                    <a href="#solCat"><div class="nav">
+                        <p class="nav-emoji">☘️</p>
+                        <p>Slice of Life</p>
+                    </div></a>
+                    <a href="#superheroCat"><div class="nav">
+                        <p class="nav-emoji">🦸‍♂️</p>
+                        <p>Superheros</p>
+                    </div></a>
+                    <a href="#nonFictionComicsCat"><div class="nav">
+                        <p class="nav-emoji">🌆</p>
+                        <p>Non-Fiction</p>
+                    </div></a>
+                    <a href=""><div class="nav">
+                        <p class="nav-emoji">🧒</p>
+                        <p>Kids Comics</p>
+                    </div></a>
+                </div>
+            </div>
+
+            <div class="navs">
+                <p class="nav-title">Mangas</p>
+                <div class="navs-wrapper">
+                    <div class="nav">
+                        <p class="nav-emoji">🐦‍🔥</p>
+                        <p>Fantasy Mangas</p>
+                    </div>
+                    <div class="nav">
+                        <p class="nav-emoji">💥</p>
+                        <p>Action Mangas</p>
+                    </div>
+                    <div class="nav">
+                        <p class="nav-emoji">🕵️</p>
+                        <p>Mystery Mangas</p>
+                    </div>
+                    <div class="nav">
+                        <p class="nav-emoji">☠️</p>
+                        <p>Horror Mangas</p>
+                    </div>
+                    <div class="nav">
+                        <p class="nav-emoji">☘️</p>
+                        <p>Slice of Life</p>
+                    </div>
+                    <div class="nav">
+                        <p class="nav-emoji">🦸‍♂️</p>
+                        <p>Superheros</p>
+                    </div>
+                    <div class="nav">
+                        <p class="nav-emoji">🌆</p>
+                        <p>Non-Fiction</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navs">
+                <p class="nav-title">Comics</p>
+                <div class="navs-wrapper">
+                    <div class="nav">
+                        <p class="nav-emoji">🐦‍🔥</p>
+                        <p>Fantasy Comics</p>
+                    </div>
+                    <div class="nav">
+                        <p class="nav-emoji">💥</p>
+                        <p>Action Comics</p>
+                    </div>
+                    <div class="nav">
+                        <p class="nav-emoji">☠️</p>
+                        <p>Horror Comics</p>
+                    </div>
+                    <div class="nav">
+                        <p class="nav-emoji">☘️</p>
+                        <p>Slice of Life</p>
+                    </div>
+                    <div class="nav">
+                        <p class="nav-emoji">🦸‍♂️</p>
+                        <p>Superheros</p>
+                    </div>
+                    <div class="nav">
+                        <p class="nav-emoji">🌆</p>
+                        <p>Non-Fiction</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="main-page">
+        <!--Hero-->
+        <div class="hero-comics swiper">
+
+            <div class="swiper-wrapper">
+                <div class="hero-comic hc-bg1 swiper-slide">
+                <div class="hc-gradient"></div>
+
+                <div class="hc-info-container">
+                    <img class="hc-img" src="Photos/comic-covers/absolute-batman.avif" alt="">
+                    <div class="hc-info">
+                        <div class="hc-title-rating">
+                            <p class="hc-title">Absolute Batman</p>
+                            <p class="hc-rating">4.3/5⭐</p>
+                        </div>
+
+                    <p class="hc-description">
+                        The series stars a 24-year-old blue-collar civil engineer named Bruce Wayne,
+                        who operates at night as the vigilante Batman,
+                        fighting crime with his self-designed equipment and armor.
+                    </p>
+                </div>
+            </div>
+            </div>
+
+            <div class="hero-comic hc-bg2 swiper-slide">
+            <div class="hc-gradient"></div>
+
+            <div class="hc-info-container">
+                <img class="hc-img" src="Photos/comic-covers/injustice.jpg" alt="">
+                <div class="hc-info">
+                    <div class="hc-title-rating">
+                        <p class="hc-title">Injustice</p>
+                        <p class="hc-rating">4.6/5⭐</p>
+                    </div>
+
+                    <p class="hc-description">After the Joker tricks him first into killing both Lois Lane and his unborn child
+                        and then destroying Metropolis with a nuclear bomb,
+                        Superman kills the Joker, becomes a tyrant, 
+                        and establishes a new world order named the Regime, 
+                        while Batman forms an Insurgency against him.
+                    </p>
+                </div>
+            </div>
+            </div>
+
+            <div class="hero-comic hc-bg3 swiper-slide">
+            <div class="hc-gradient"></div>
+
+            <div class="hc-info-container">
+                <img class="hc-img" src="Photos/comic-covers/invincible.webp" alt="">
+                <div class="hc-info">
+                    <div class="hc-title-rating">
+                        <p class="hc-title">Invincible</p>
+                        <p class="hc-rating">4.4/5⭐</p>
+                    </div>
+
+                    <p class="hc-description">Follows the coming-of-age journey of <strong>Mark Grayson,</strong> a seemingly ordinary teenager whose father, <strong>Nolan Grayson (Omni-Man)</strong>, is Earth's most powerful superhero. At age 17, Mark begins to develop his own superhuman abilities — flight, super strength, super speed, stamina, and incredible durability — and takes the moniker <strong>"Invincible."</strong> But what begins as a classic teenage superhero fantasy quickly shatters into something far darker. Mark soon discovers that his father is not a benevolent alien guardian but a member of the <strong>Viltrumite Empire</strong>, a brutal, spacefaring race of conquerors who believe in manifest destiny across the cosmos. When Omni-Man reveals his true mission — to soften Earth for Viltrumite takeover — Mark is forced to confront the horrifying legacy he has inherited, setting off a sprawling, decade-spanning saga of betrayal, war, loss, growth, and ultimately redemption.</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="hero-comic hc-bg4 swiper-slide">
+            <div class="hc-gradient"></div>
+
+            <div class="hc-info-container">
+                <img class="hc-img" src="Photos/comic-covers/batman-the-dark-knight.jpg" alt="">
+                <div class="hc-info">
+                    <div class="hc-title-rating">
+                        <p class="hc-title">Batman: The Dark Knight Returns</p>
+                        <p class="hc-rating">4.7/5⭐</p>
+                    </div>
+
+                    <p class="hc-description">Set in a dystopian near-future, the story presents a Gotham City that has sunk into decadence and lawlessness in the ten years since a 55-year-old Bruce Wayne retired from his war on crime. Driven by an insatiable, obsessive need to fight injustice, the aging and weary Wayne dons the cape and cowl once more, returning to the streets in a blaze of fury against a new generation of criminals.</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="hero-comic hc-bg5 swiper-slide">
+            <div class="hc-gradient"></div>
+
+            <div class="hc-info-container">
+                <img class="hc-img" src="Photos/comic-covers/batman-killing-joke.avif" alt="">
+                <div class="hc-info">
+                    <div class="hc-title-rating">
+                        <p class="hc-title">Batman: The Killing Joke</p>
+                        <p class="hc-rating">4.7/5⭐</p>
+                    </div>
+
+                    <p class="hc-description">The story provides a definitive, tragic origin for the Joker, depicted as a failed stand-up comedian and struggling family man who, after suffering "one bad day," is driven irrevocably insane. This origin is intercut with a present-day narrative in which the Joker escapes Arkham Asylum and launches a sadistic campaign to prove a philosophical point: that any man, under sufficient pressure, can be driven as mad as he is. His target is <strong>Commissioner James Gordon</strong>, Gotham's incorruptible moral center. To break Gordon, the Joker commits a horrific act that reverberates through comics history: he shoots Gordon's daughter, <strong>Barbara</strong> (Batgirl), in the spine, paralyzing her from the waist down, and then strips her, photographs her nude body, and forces her father to view the images.</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="hero-comic hc-bg6 swiper-slide">
+            <div class="hc-gradient"></div>
+
+            <div class="hc-info-container">
+                <img class="hc-img" src="Photos/comic-covers/ultimate-spiderman.jpg" alt="">
+                <div class="hc-info">
+                    <div class="hc-title-rating">
+                        <p class="hc-title">Ultimate Spider-Man</p>
+                        <p class="hc-rating">4.5/5⭐</p>
+                    </div>
+
+                    <p class="hc-description">The series stars a 24-year-old blue-collar civil engineer named Bruce Wayne, who operates at night as the vigilante Batman, fighting crime with his self-designed equipment and armor. </p>
+                </div>
+            </div>
+            </div>
+
+            <div class="hero-comic hc-bg7 swiper-slide">
+            <div class="hc-gradient"></div>
+            <div class="hc-info-container">
+                <img class="hc-img" src="Photos/comic-covers/daredevil-born-again.jpg" alt="">
+                <div class="hc-info">
+                    <div class="hc-title-rating">
+                        <p class="hc-title">DareDevil: Born Again</p>
+                        <p class="hc-rating">4.6/5⭐</p>
+                    </div>
+
+                    <p class="hc-description">Explores the catastrophic destruction of Matt Murdock's personal and professional life and his subsequent, painstaking journey to redemption and rebirth.</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="hero-comic hc-bg8 swiper-slide">
+            <div class="hc-gradient"></div>
+            <div class="hc-info-container">
+                <img class="hc-img" src="Photos/comic-covers/batman-court-of-owls.jpg" alt="">
+                <div class="hc-info">
+                    <div class="hc-title-rating">
+                        <p class="hc-title">Batman: The Court Of Owls</p>
+                        <p class="hc-rating">4.5/5⭐</p>
+                    </div>
+
+                    <p class="hc-description">a chilling new addition to Batman's rogues' gallery: a secret, centuries-old cabal of Gotham City's wealthiest and most influential families who have manipulated the city's history from the shadows. Long dismissed by Bruce Wayne as a mere nursery rhyme told to frighten children, the Court proves to be terrifyingly real when its undead assassins, the Talons, begin to target him.</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="hero-comic hc-bg9 swiper-slide">
+            <div class="hc-gradient"></div>
+            <div class="hc-info-container">
+                <img class="hc-img" src="Photos/comic-covers/absolute-superman.avif" alt="">
+                <div class="hc-info">
+                    <div class="hc-title-rating">
+                        <p class="hc-title">Absolute Superman</p>
+                        <p class="hc-rating">4.2/5⭐</p>
+                    </div>
+
+                    <p class="hc-description">
+                        a gritty, radical reinvention of the Man of Steel. 
+                        Stripped of his idyllic Kansas upbringing, 
+                        Kal-El grows up as an angry, persecuted immigrant. 
+                        He dons advanced Kryptonian living armor and wages a relentless war to 
+                        protect society's most oppressed and exploited individuals.</p>
+                </div>
+            </div>
+            </div>
+
+        </div>
+        </div>
+
+        <!--Popular Companies-->
+        <div class="comics">
+
+            <div class="popular-companies-container">
+                <p class="title">Popular Companies</p>
+                <div class="popular-companies">
+                    <div class="pc-company" title="Marvel Comics">
+                        <img src="Photos/logos/marvel-comics.webp" draggable="false">
+                    </div>
+                    <div class="pc-company" title="DC Comics">
+                        <img src="Photos/logos/dc-comics.png" draggable="false">
+                    </div>
+                    <div class="pc-company" title="Image Comics">
+                        <img src="Photos/logos/image-comics.webp" draggable="false">
+                    </div>
+                    <div class="pc-company" title="Dark Horse Comics">
+                        <img src="Photos/logos/dark-horse-comics.webp" draggable="false">
+                    </div>
+                </div>
+            </div>
+
+            <!--Comics Categories-->
+            <div class="comics-categories">
+
+                <div class="comic-category" id="actionComicsCat">
+                    <div class="cc-title-next-prev">
+                        <p class="title">Action Comics</p>
+                        <div class="next-prev">
+                            <button class="nav-button navPrevBtn" id="">❮</button>
+                            <button class="nav-button navNextBtn" id="">❯</button>
+                        </div>
+                    </div>
+
+                    <div class="comics-container" id="actionComics"></div>
+
+                </div>
+
+                    <div class="comic-category" id="fantasyComicsCat">
+                        <div class="cc-title-next-prev">
+                            <p class="title">Fantasy Comics</p>
+                            <div class="next-prev">
+                                <button class="nav-button navPrevBtn" id="">❮</button>
+                                <button class="nav-button navNextBtn" id="">❯</button>
+                            </div>
+                        </div>
+
+                        <div class="comics-container" id="fantasyComics"></div>
+
+                    </div>
+
+                    <div class="comic-category" id="mysteryComicsCat">
+                        <div class="cc-title-next-prev">
+                            <p class="title">Mystery Comics</p>
+                            <div class="next-prev">
+                                <button class="nav-button navPrevBtn" id="">❮</button>
+                                <button class="nav-button navNextBtn" id="">❯</button>
+                            </div>
+                        </div>
+
+                        <div class="comics-container" id="mysteryComics"></div>
+
+                    </div>
+
+                    <div class="comic-category" id="superheroCat">
+                        <div class="cc-title-next-prev">
+                            <p class="title">Superhero Comics</p>
+                            <div class="next-prev">
+                                <button class="nav-button navPrevBtn" id="">❮</button>
+                                <button class="nav-button navNextBtn" id="">❯</button>
+                            </div>
+                        </div>
+
+                        <div class="comics-container" id="superhero"></div>
+
+                    </div>
+
+                    <div class="comic-category" id="horrorComicsCat">
+                        <div class="cc-title-next-prev">
+                            <p class="title">Horror Comics</p>
+                            <div class="next-prev">
+                                <button class="nav-button navPrevBtn" id="">❮</button>
+                                <button class="nav-button navNextBtn" id="">❯</button>
+                            </div>
+                        </div>
+
+                        <div class="comics-container" id="horrorComics"></div>
+
+                    </div>
+
+                    <div class="comic-category" id="solCat">
+                        <div class="cc-title-next-prev">
+                            <p class="title">Slice of Life Comics</p>
+                            <div class="next-prev">
+                                <button class="nav-button navPrevBtn" id="">❮</button>
+                                <button class="nav-button navNextBtn" id="">❯</button>
+                            </div>
+                        </div>
+
+                        <div class="comics-container" id="sliceOfLifeComics"></div>
+
+                    </div>
+
+                    <div class="comic-category" id="nonFictionComicsCat">
+                        <div class="cc-title-next-prev">
+                            <p class="title">Non-Fiction Comics</p>
+                            <div class="next-prev">
+                                <button class="nav-button navPrevBtn" id="">❮</button>
+                                <button class="nav-button navNextBtn" id="">❯</button>
+                            </div>
+                        </div>
+
+                        <div class="comics-container" id="nonFictionComics"></div>
+
+                    </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="scripts/slides.js"></script>
+    <script src="scripts/ss-sidebar.js"></script>
+    <script src="scripts/nav-buttons.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
